@@ -25,7 +25,7 @@ montante = montante % 100
 n05 = montante//50
 print('%.0f moedas(s) de R$0.50' %(n05))
 montante = montante % 50
-n025 = montante//250.83
+n025 = montante//25
 print('%.0f moedas(s) de R$0.25' %(n025))
 montante = montante % 25
 n010 = montante//10
